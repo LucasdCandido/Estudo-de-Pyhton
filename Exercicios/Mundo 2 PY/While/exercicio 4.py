@@ -15,8 +15,9 @@ while cidA < cidB:
     ano += 1
     cidA = float((1 + (taxa_A/100))* cidA)
     cidB = float((1 + (taxa_B/100))* cidB)
-    print('{:.2f}'.format(cidA))
-    print('{:.2f}'.format(cidB))
+    print('Durante o ano {}, as populações eram. '.format(ano))
+    print('População da cidade A {:.2f}'.format(cidA))
+    print('População da cidade B {:.2f}'.format(cidB))
 print('Após {} anos, a cidade A ultrapassou a população da cidade B.'.format(ano))
 
 
