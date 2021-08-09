@@ -1,4 +1,11 @@
-
+numero = int(input('Digite um numero entre 0 a 999: '))
+s = 0
+cont = 0
+while numero < 999:
+    s = s + numero
+    numero = int(input('Digite um numero entre 0 a 999: '))
+    cont += 1
+print('Foram digitados {} numeros e a soma deles é {}'.format(cont,s))
 
 
 
