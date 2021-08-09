@@ -1,5 +1,12 @@
-
-
+s = cont = media = numero = 0
+f = 'S'
+while f in 'S':
+    s += numero
+    numero = int(input('Digite um numero inteiro para tirar a media: '))
+    cont += 1
+    f = str(input('Você gostaria de digitar mais um numero? [N/S] ')).upper().strip()[0]
+    media = numero / cont
+print('Foram digitados {} numeros e a media entre eles é de {}'.format(cont, media))
 
 
 '''Crie um programa que leia varios numeros inteiros pelo teclado.
