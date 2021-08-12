@@ -1,3 +1,12 @@
+soma = cont = numero = 0
+while True:
+    numero = int(input('Digite um numero: '))
+    if numero == 999:
+        break
+    soma += numero
+    cont += 1
+print(f'Foram digitados {cont} numeros e a soma deles é {soma}')
+
 
 
 
