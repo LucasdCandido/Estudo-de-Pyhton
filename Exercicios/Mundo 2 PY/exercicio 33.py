@@ -1,17 +1,26 @@
 from random import randint
-computador = jogador = contador = 0
+computador = jogador = contador = soma = resto = 0
 escolha = ""
 par = 0
 impar = 0
+resultado = 0
 print('=-='*30)
 print('''Vamos jogar par ou impar?
     Você vai competir com o computador, vamos ver quem tem mais sorte! ''')
 while True:
-    jogador = int(input('Digite o numero para poder jogar par ou impar: '))
-    computador = randint(1, 10)
-    escolha = str(input('Você quer par ou impar? ')).upper().strip()
+    computador = randint(1,10)
+    escolha = str(input('Você gostaria de escolher PAR ou IMPAR? ')).upper().strip()
     while escolha not in 'PAR' or 'IMPAR':
-        escolha = str(input('Você deve escolher entre par ou impar para conseguir jogar: ')).upper().strip()
+        escolha = str(input('Por favor escolha entre PAR ou IMPAR: '))
+    if escolha == 'PAR':
+        jogador = int(input('Digite um numero para jogar: '))
+        soma = computador + jogador
+        contador += 1
+        resto = soma % 2
+        if resto == 0:
+            
+
+
 
 
 
