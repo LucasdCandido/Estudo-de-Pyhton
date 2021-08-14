@@ -7,10 +7,10 @@ print('''Vamos jogar par ou impar?
 print('=-='*30)
 while True:
     computador = randint(1,10)
-    escolha = str(input('Você gostaria de escolher PAR ou IMPAR? ')).upper().strip()
-    while escolha not in 'PARIMPAR':
-        escolha = str(input('Por favor escolha entre PAR ou IMPAR: '))
-    if escolha == 'PAR':
+    escolha = str(input('Você gostaria de escolher PAR ou IMPAR? ')).upper().strip()[0]
+    while escolha not in 'PI':
+        escolha = str(input('Por favor escolha entre PAR ou IMPAR: [P/I] '))
+    if escolha == 'P':
         jogador = int(input('Digite um numero para jogar: '))
         soma = computador + jogador
         resto = soma % 2
@@ -21,7 +21,7 @@ while True:
         elif resto != 0:
             print(f'Infelizmente você perdeu, você escolheu {jogador} e o computador escolheu {computador} somando da {soma} que é IMPAR!')
             resultado = 1
-    elif escolha == 'IMPAR':
+    elif escolha == 'I':
         jogador = int(input('Digite um numero para jogar: '))
         soma = computador + jogador
         resto = soma % 2
