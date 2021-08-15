@@ -1,6 +1,6 @@
-nome = sexo = nomes = sexos = escolha = ""
-idade = letra = idades = 0
-
+nome = sexo = escolha = ""
+idade = letra = 0
+cadastro = []
 
 while True:
     nome = str(input('Digite seu nome: ')).upper().strip()
@@ -14,13 +14,12 @@ while True:
     sexo = str(input('Digite seu sexo: [M/F] ')).upper().strip()[0]
     while sexo not in 'MmFf':
         sexo = str(input('Por favor digite um sexo valido: [M/F] ')).upper().strip()[0]
-    nomes = nome
-    idades = idade
-    sexos = sexo
+    cadastro = [nome, idade, sexo]
     escolha = str(input('Gostaria de cadastrar outra pessoa? [S/N] ')).upper().strip()[0]
     if escolha == 'N':
         break
-print(nomes,idades,sexos)
+
+print(cadastros)
 
 
 
