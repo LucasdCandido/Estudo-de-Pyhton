@@ -19,7 +19,7 @@ while True:
     if escolha == 'N':
         break
 
-print(cadastros)
+print(cadastro)
 
 
 
