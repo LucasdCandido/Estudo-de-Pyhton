@@ -4,7 +4,7 @@ while True:
     idade = int(input('Digite a sua idade: '))
     while idade < 0:
         idade = int(input('Digite sua idade: '))
-    sexo = str(input('Digite seu sexo: [M/F] ')).upper().strip()[0]
+    sexo = input('Digite seu sexo: [M/F] ').upper().strip()[0]
     while sexo not in 'MF':
         sexo = str(input('Digite seu sexo: [M/F] ')).upper().strip()[0]
     if idade > 18:
