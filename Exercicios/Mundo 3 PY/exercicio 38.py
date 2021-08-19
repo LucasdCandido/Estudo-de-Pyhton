@@ -1,7 +1,15 @@
 classificação = ('Atlético-MG', 'Palmeiras', 'Fortaleza', 'Bragantino', 'Flamengo', 'Athletico-PR', 'Atlético-GO', 'Ceará-SC', 'Internacional', 'Santos', 'Corinthians', 'Juventude', 'Bahia', 'São Paulo', 'Fluminense', 'Cuiabá', 'Sport Recife', 'América-MG', 'Grêmio', 'Chapecoense')
 n = c = m = contador = 0
 time = ""
-print(f'\nOs primeiros 5 colocados na tabela do Brasileirão são: \n')
+print('\n'.join(classificação[:5]))
+print('\n'.join(classificação[-4:]))
+print(sorted(classificação))
+print(classificação.index("Chapecoense")+1)
+
+
+
+
+"""print(f'\nOs primeiros 5 colocados na tabela do Brasileirão são: \n')
 while n < 5:
     print(classificação[n])
     n += 1
@@ -22,7 +30,7 @@ for m in range(0, len(classificação), 1):
     contador += 1
     if time == 'Chapecoense':
         break
-print(f'\n\nO time Chapecoense esta classificado na posição {contador}!')
+print(f'\n\nO time Chapecoense esta classificado na posição {contador}!')"""
 
 """Crie uma tupla preenchida com os 20 primeiros colocados da 
 tabelo do campeonato brasileiro de futebol, na ordem de colocação.
