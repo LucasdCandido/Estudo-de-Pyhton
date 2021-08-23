@@ -1,5 +1,5 @@
 from random import randint
-numero1 = numero2 = numero3 = numero4 = numero5 = random = contador = maior = menor = m = 0
+"""numero1 = numero2 = numero3 = numero4 = numero5 = random = contador = maior = menor = m = 0
 numero1 = randint(1, 10)
 numero2 = randint(1, 10)
 numero3 = randint(1, 10)
@@ -17,7 +17,12 @@ for c in range(0, len(random), 1):
             maior = m
         if m < menor:
             menor = m
-print(f'A sequecia aleatoria ficou {a, b, c, d, e}, o maior numero da sequencia é {maior} e o menor é {menor}.')
+print(f'A sequecia aleatoria ficou {a, b, c, d, e}, o maior numero da sequencia é {maior} e o menor é {menor}.')"""
+random = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(1,10))
+for r in random:
+    print(f'{r} ', end="")
+print(f'\nO maior valor sorteado foi {max(random)}')
+print(f'\nO menor valor sorteado foi {min(random)}')
 
 
 """Crie um programa que vai gerar cinco numeros aleatorios e colocar em uma tupla.
