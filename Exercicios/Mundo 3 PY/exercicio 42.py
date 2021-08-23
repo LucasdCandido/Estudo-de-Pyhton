@@ -1,4 +1,10 @@
-
+palavras = ('cadarco', 'remedio', 'tijolo', 'ralapenho', 'estrutura')
+for palavra in palavras:
+    print(f'\n{palavra:<15}', end=' ')
+    for letra in palavra:
+        if letra in 'aeiou':
+            print(letra, end=' ')
+        
 
 
 
