@@ -1,7 +1,8 @@
 valores = []
 maior = menor = contador = 0
-while contador < 0:
+while contador > 0:
     valores.append(int(input('Digite um numero: ')))
+    contador += 1
 for v in valores:
     if v in valores:
         maior = menor = v
