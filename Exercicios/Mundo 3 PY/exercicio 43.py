@@ -2,15 +2,15 @@ valores = []
 maior = menor = contador = 0
 for c in range(0,5):
     valores.append(int(input('Digite um numero: ')))
-for v in valores:
-    contador += 1
-    if contador == 1:
-        maior = menor = v
-    else:
-        if maior < v:
-            maior = v
-        if menor > v:
-            menor = v
+#for v in valores:
+ #   contador += 1
+  #  if contador == 1:
+   #     maior = menor = v
+    #else:
+     #   if maior < v:
+      #      maior = v
+       # if menor > v:
+        #    menor = v
 print(valores.index(min(valores)))
 print(valores.index(max(valores)))
 #if menor in valores:
