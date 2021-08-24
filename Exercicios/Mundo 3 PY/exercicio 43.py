@@ -1,10 +1,10 @@
 valores = []
 maior = menor = contador = 0
-while contador > 0:
+for c in range(0,5):
     valores.append(int(input('Digite um numero: ')))
-    contador += 1
 for v in valores:
-    if v in valores:
+    contador += 1
+    if contador == 1:
         maior = menor = v
     else:
         if maior < v:
@@ -12,9 +12,9 @@ for v in valores:
         if menor > v:
             menor = v
 if menor in valores:
-    print(valores.index(menor))
+    print(f'O menor valor {menor} aparece na posição {valores.index(menor)+1}')
 if maior in valores:
-    print(valores.index(maior))
+    print(f'O maior valor {maior} aparece na posição {valores.index(maior)+1}')
 
 
 
