@@ -11,10 +11,12 @@ for v in valores:
             maior = v
         if menor > v:
             menor = v
-if menor in valores:
-    print(f'O menor valor {menor} aparece na posição {valores.index(menor)+1}')
-if maior in valores:
-    print(f'O maior valor {maior} aparece na posição {valores.index(maior)+1}')
+print(valores.index(min(valores)))
+print(valores.index(max(valores)))
+#if menor in valores:
+ #   print(f'O menor valor {menor} aparece na posição {valores.index(menor)}')
+#if maior in valores:
+ #   print(f'O maior valor {maior} aparece na posição {valores.index(maior)}')
 
 
 
