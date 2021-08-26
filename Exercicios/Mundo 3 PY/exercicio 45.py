@@ -1,30 +1,16 @@
 valores = []
-novos = []
-contador = maior = menor = maiormenor = maiormenor2 = maiormenor3 = 0
-for c in range(0,5):
-    valores.append(int(input('Digite um numero: ')))
-for v in valores:
-    contador += 1
-    if contador == 1:
-        maior = menor = menormenor = maiormenor2 = v
-        novos.append(v)
+for c in range(0, 5):
+    v = int(input('Digite um numero: '))
+    if c == 0 or v > valores[-1]:
+        valores.append(v)
     else:
-        if menor >= v:
-            menor = v
-            novos.lappend(menor)
-        if maior <= v:
-            maior = v
-            novos.append(maior)
-        if maiormenor > menor:
-            menormaior = v
-            novos.insert((novos.index(menor)), menormaior)
-        if maiormenor2 > maiormenor:
-            maiormenor2 = v
-            novos.insert((novos.index(maiormenor)), maiormenor2)
-        if maiormenor3 > maiormenor2:
-            maiormenor3 = v
-            novos.insert((novos.index(maiormenor2)), maiormenor3)
-print(novos)
+        posicao = 0
+        while posicao < len(valores):
+            if v <= valores[posicao]:
+                valores.insert(posicao, v)
+                break
+            posicao += 1
+print(valores)
 
 
 
