@@ -1,4 +1,19 @@
-
+valores = []
+contador = 0
+resposta = ""
+while True:
+    valores.append(int(input('Digite um numero: ')))
+    contador += 1
+    resposta = input('Gostaria de digitar mais um numero? [S/N] ').upper().strip()[0]
+    if resposta == 'N':
+        break
+print(contador)
+valores.sort(reverse=True)
+print(valores)
+if 5 in valores:
+    print('Foi digitado o numero 5 nessa lista!')
+else:
+    print('Não foi digitado o numero 5 nessa lista!')
 
 
 
