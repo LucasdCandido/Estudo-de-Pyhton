@@ -1,4 +1,16 @@
-
+contador = 0
+expressao = input('Digite uma frase com parenteses: ').upper().strip()
+for e in expressao:
+    if expressao == '(':
+        contador += 1
+    else:
+        contador -= 1
+    if contador < 0:
+        break
+if contador == 0:
+    print('Expressão valida!')
+else:
+    print('Expressão invalida!')   
 
 
 
