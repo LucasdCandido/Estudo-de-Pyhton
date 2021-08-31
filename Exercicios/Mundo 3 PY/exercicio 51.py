@@ -1,4 +1,22 @@
-
+linha1 = []
+linha2 = []
+linha3 = []
+conteudo = []
+for l in range(0, 3):
+    conteudo.append(int(input('Digite um numero: ')))
+    linha1.append(conteudo[:])
+    conteudo.clear()
+for l in range(0, 3):
+    conteudo.append(int(input('Digite um numero: ')))
+    linha2.append(conteudo[:])
+    conteudo.clear()
+for l in range(0, 3):
+    conteudo.append(int(input('Digite um numero: ')))
+    linha3.append(conteudo[:])
+    conteudo.clear()
+print(linha1)
+print(linha2)
+print(linha3)
 
 
 
