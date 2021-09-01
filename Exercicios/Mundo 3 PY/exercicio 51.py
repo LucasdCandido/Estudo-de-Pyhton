@@ -1,22 +1,11 @@
-linha1 = []
-linha2 = []
-linha3 = []
-conteudo = []
-for l in range(0, 3):
-    conteudo.append(int(input('Digite um numero: ')))
-    linha1.append(conteudo[:])
-    conteudo.clear()
-for l in range(0, 3):
-    conteudo.append(int(input('Digite um numero: ')))
-    linha2.append(conteudo[:])
-    conteudo.clear()
-for l in range(0, 3):
-    conteudo.append(int(input('Digite um numero: ')))
-    linha3.append(conteudo[:])
-    conteudo.clear()
-print(linha1)
-print(linha2)
-print(linha3)
+matriz = [[0,0,0],[0,0,0],[0,0,0]]
+for l in range(0,3):
+    for c in range(0,3):
+        matriz[l][c] = int(input(f'Digite um numero [{l}, {c}]: '))
+for l in range(0,3):
+    for c in range(0,3):
+        print(f'[{matriz[l][c]}]', end="")
+    print()
 
 
 
