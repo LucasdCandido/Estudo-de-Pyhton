@@ -16,9 +16,8 @@ while True:
     reposta = input('Gostaria de cadastrar outro jogador? [S/N] ').upper().strip()[0]
     if resposta in 'N':
         break
-for c in classificacao:
-    print(c)
-
+for c, l in classificacao.items():
+    print(l)
 
 
 """Crie um programa que gerencie o aproveitamento de um jogador de futebol. O programa vai
