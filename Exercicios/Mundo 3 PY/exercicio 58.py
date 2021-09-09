@@ -4,11 +4,11 @@ gols = jogos = placar = 0
 resposta = ""
 while True:
     jogador['Nome'] = input('Qual o nome do jogador? ').upper().strip()
-    jogos = int(input(f'Quantos jogos o jogador jogou? '))
+    jogos = int(input(f'Quantos jogos o {jogador["Nome"]} jogou? '))
     jogador['Jogos'] = jogos
     n = 0
     for j in  range(0, jogos):
-        gols = int(input('Quantos gols ele marcou no jogo: '))
+        gols = int(input(f'Quantos gols ele marcou na partida {j+1}: '))
         jogador['Gols'] = gols
         placar += gols
     jogador['Placar'] = placar
