@@ -1,15 +1,16 @@
-pessoa = []
-nome = []
-cadastro = []
 altura = []
 idade = []
+nome = []
+pessoa = []
 for c in range(0,2):
-    nome.append(input('Nome: ').upper().strip())
-    altura.append(float(input('Altura: ')))
+    nome.append(input('Nome: ').strip())
     idade.append(int(input('Idade: ')))
-    pessoa.append(nome[:])
-    pessoa.append(altura[:])
-    pessoa.append(idade[:])
-    cadastro.append(pessoa[:])
-    pessoa.clear()
-print(cadastro)
+    altura.append(float(input('Altura: ')))
+    pessoa.append([nome[:],idade[:],altura[:]])
+    nome.clear()
+    idade.clear()
+    altura.clear()
+pessoa.reverse()
+for c in pessoa:
+    print(f'{c} ',end="")
+    
