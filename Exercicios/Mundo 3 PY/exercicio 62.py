@@ -1,3 +1,13 @@
+'''
+def escreva(texto):
+    extensao = len(texto) + 2
+    print('~'*extensao)
+    print(f' {texto}')
+    print('~'*extensao)
+
+
+escreva(texto = input('Digite um texto! '))
+'''
 
 
 
