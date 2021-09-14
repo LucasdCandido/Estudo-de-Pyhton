@@ -3,4 +3,12 @@
 
 
 """
+Faça um programa que tenha uma função chamada escreva(), que receba um texto qualquer como parametro
+e mostre uma mensagem com tamanho adaptavel.
+ex:
+escreva('Ola, Mundo!')
+saida:
+~~~~~~~~~~~~~
+ Ola, Mundo!
+~~~~~~~~~~~~~
 """
