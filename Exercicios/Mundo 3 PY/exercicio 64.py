@@ -1,4 +1,17 @@
-
+from random import randint
+def maior(lista=[]):
+    maior = max(lista)
+    quantidade = len(lista)
+    print(lista)
+lista = []
+n = randint(0,10)
+while True:
+    if n == 0:
+        break
+    for c in range(0,n):
+        lista.append(randint)
+        
+maior(lista=[])
 
 
 
