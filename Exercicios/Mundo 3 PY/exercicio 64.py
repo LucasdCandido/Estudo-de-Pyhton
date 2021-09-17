@@ -1,18 +1,23 @@
-from random import randint
-def maior(lista=[]):
-    maior = max(lista)
-    quantidade = len(lista)
-    print(lista)
-lista = []
-n = randint(0,10)
-while True:
-    if n == 0:
-        break
-    for c in range(0,n):
-        lista.append(randint)
-        
-maior(lista=[])
+from time import sleep 
 
+def maior(* numero):
+    contador = maior = 0
+    print(f'\nAnalizando dados: ')
+    for c in numero:
+        print(f'{c} ', end='', flush=True)
+        sleep(0.3)
+        if contador == 0:
+            maior = c
+        else:
+            if c > maior:
+                maior = c
+        contador += 1
+    print(f'\nForam contados {contador} numeros')
+    print(f'O maios numero é {maior}')
+
+maior(1,2,3,4,5,6,12)
+maior(12,32,99,12)
+maior(0)
 
 
 """
