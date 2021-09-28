@@ -1,28 +1,18 @@
-class Compra:
-    def __init__(self):
-        self.produto = []
-
-    def inserir_produto(self, produto):
-        self.produto.append(produto)
-
-    def lista_produtos(self):
-        for produto in self.produto:
-            print(produto.nome,produto.valor, produto.desconto)
-
-    def valor_final_produto(self):
-        for produto in self.produto:
-            desconto = float((1+(produto.desconto/100))*produto.valor)
-        return produto.nome, desconto
-
-    
-
-
 class Produto:
     def __init__(self, nome, valor, desconto):
         self.nome = nome
         self.valor = valor
-        self.desconto = desconto
+        self.desc = desconto
+
+    def valor_desconto(self):
+        valor_desc = self.valor - (self.valor * (1+(self.desc/100)))
+        valor_final = self.valor + valor_desc
+        return valor_final
 
 
-compra = Compra
-p1 = Produto(nome, )
+
+nome = input('Digite o nome do produto: ')
+valor = float(input('Digite o valor do produto: '))
+desconto = float(input('Digite a porcentagem do desconto: '))
+p1 = Produto(nome, valor, desconto)
+print(p1.nome, p1.valor_desconto())
