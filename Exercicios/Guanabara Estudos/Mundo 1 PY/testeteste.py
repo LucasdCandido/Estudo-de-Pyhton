@@ -7,6 +7,7 @@ pygame.display.set_caption("Sound!!")
 
 soundObj = pygame.mixer.Sound('C:/Users/PC-OPERAÇÃO-LUCAS/Documents/GitHub/Estudo-de-Pyhton/Exercicios/Guanabara Estudos/Mundo 1 PY/testeteste.wav')
 soundObj.play()
+input()
 time.sleep(1) #wait and let the sound play for X second
 soundObj.stop()
 
