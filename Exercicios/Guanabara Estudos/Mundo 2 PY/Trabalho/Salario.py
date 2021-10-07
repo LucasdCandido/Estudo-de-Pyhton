@@ -14,6 +14,5 @@ bom = float(input('Digite o valor da passagem do Bilhete Bom: '))
 inte = float(input('Digite o valor da integração do Bilhete unico entre onibus e trem: '))
 valor_bu = (dia*(bu*2))+(dia*(inte*2))
 valor_bom = (dia*(bom*2))
-exceliquido = exce-(valor_bom+valor_bu)
 restante = pag - valor_bom - valor_bu
-print(f'O valor do VT ficou {valor_bu+valor_bom:.2f}, o valor no BU é {valor_bu:.2f} e o valor do BOM é {valor_bom:.2f},o salario é {restante:.2f} e o exedente é {exceliquido:.2f}')
+print(f'O valor do VT ficou {valor_bu+valor_bom:.2f}, o valor no BU é {valor_bu:.2f} e o valor do BOM é {valor_bom:.2f},o salario é {restante:.2f}.')
