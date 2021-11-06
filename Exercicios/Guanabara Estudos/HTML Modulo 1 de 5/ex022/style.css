@@ -41,7 +41,7 @@ nav > a {
 }
 main {
     background-color: white;
-    margin: 106px 40px;
+    margin: 93px 40px;
 }
 footer {
     background-color: green;
@@ -64,14 +64,55 @@ h2 {
 }
 #video {
     background-color: darkgreen;
-    margin: 0px 40px;
+    margin: -106px 40px 19px 40px;
 }
 #corpo {
     background-color: greenyellow;
-    margin: -8px 40px;
+    margin: 8px 40px;
     border-radius: 8px;
 }
 #topo {
     background-color: darkgreen;
     border-radius: 8px 8px 0px 0px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.destaque {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#curiosidade {
+    background-color: white;
+    margin: -20px 40px 0px 40px;
+    padding-top: 2px;
+}
+
+#versoes {
+    display: inline-flex;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+.item {
+    position: relative;
+}
+.item::before {
+    content: '✓ ';
+    position: relative;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0px 20px;
 }
