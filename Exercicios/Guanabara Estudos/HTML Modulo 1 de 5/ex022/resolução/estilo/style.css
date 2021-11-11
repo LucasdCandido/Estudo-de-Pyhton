@@ -78,6 +78,32 @@ nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
 }
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
 main {
     background-color: white;
     min-width: 300px;
@@ -97,6 +123,8 @@ main h1 {
 
 main h2 {
     font-family: var(--font-android);
+    color: var(--cor4);
+    font-size: 1.3em;
 }
 
 main img {
@@ -104,7 +132,7 @@ main img {
 }
 
 main img.pequeno {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
