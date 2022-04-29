@@ -23,4 +23,43 @@ main {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(#18acfe,#0166e1);
+
+    display: flex;
+    justify-content: center;
+
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form {
+    margin-top: 5%;
+    width: 35%;
+    height: 75vh;
+    background-color: #383c42;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .inputs-container{
+    margin-top: 10%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form .inputs-container input{
+    width: 90%;
+    height: 45px;
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+
+    font-size: 16px;
+    color: #312e42;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
