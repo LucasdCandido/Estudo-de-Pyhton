@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #383c42;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#18acfe,#0166e1);
+}
