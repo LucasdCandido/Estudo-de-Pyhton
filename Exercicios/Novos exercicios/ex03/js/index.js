@@ -1,5 +1,5 @@
 const form = document.getElementById('form');
-form.addEventListener('submit', handleSubmit);
+form.addEventListener("submit", handleSubmit);
 
 let status = document.getElementById('statu');
 let attempt = document.getElementById('attempt');
