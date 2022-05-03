@@ -31,7 +31,7 @@ function loadPhrase() {
     const btn = document.getElementById('btn-phrases');
     const phrase = document.getElementById('phrase');
 
-    return fetch('https://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote')
+    return fetch('http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote')
             .then(data => data.json())
             .then(json =>{
                 btn.innerHTML = 'Ver mais uma frase!';
