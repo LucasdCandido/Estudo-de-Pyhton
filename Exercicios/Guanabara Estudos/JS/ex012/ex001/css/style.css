@@ -5,11 +5,14 @@ body{
     border: 0;
     padding: 0;
     outline: 0;
-
 }
 header{
     color: white;
     text-align: center;
+}
+header h1{
+    margin-top: 2rem;
+    padding-top: 1.8rem;
 }
 section{
     background: white;
@@ -23,4 +26,11 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+#imagem {
+    margin: 0 25%;
+}
+#msg {
+    text-align: center;
+    margin: 2vh 0;
 }
