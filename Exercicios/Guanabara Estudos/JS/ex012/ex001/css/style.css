@@ -22,15 +22,11 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.0.3);
 }
+div {
+    text-align: center;
+}
 footer{
     color: white;
     text-align: center;
     font-style: italic;
-}
-#imagem {
-    margin: 0 25%;
-}
-#msg {
-    text-align: center;
-    margin: 2vh 0;
 }
