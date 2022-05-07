@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/index.js"></script>
 </head>
-<body>
+<body id="corpo">
     <header>
         <h1>Checagem de idades!</h1>
     </header>
     <section>
         <div>
             Em que ano você nasceu? <input type="number" name="idade" id="idade">
+            <input type="button" value="enviar" onclick="carregar()">
+            <br>
             Qual o seu sexo? M<input type="checkbox" name="masculino" id="masculino"> F<input type="checkbox" name="feminino" id="feminino"> 
-            <div id="res">
+            <div id="resIdade">
                 
             </div>
         </div>
