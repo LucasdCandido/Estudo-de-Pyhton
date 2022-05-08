@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-align: center;
+}
+body{
+    background: rgba(98, 0, 255, 0.582);
+}
+section{
+    background: white;
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    font: normal 16px arial;
+}
+pre{
+    text-align: left;
+    margin-left: 1px;
+}
+footer{
+    margin-top: 1vh;
+}
