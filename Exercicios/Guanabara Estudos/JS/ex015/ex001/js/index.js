@@ -33,6 +33,7 @@ function Calcular() {
         if (i < f) {
             // for é um laço de decisão onde (inicio;fim;passo) inicio normalmente representado com let -variavel- para demonstrar o inicio, -variavel- para representar o final do laço e -variavel- para representar como vai ser a sequencia do começo ao fim
             for (let index = i; index <= f; index += p) {
+                // para fazer a introdução de emoji no codigo de JavaScript U+1F449 diferente do HTML, no JavaScript você usa \u{} substituindo U+ no codigo do emoji ficando nesse caso \u{1f449}
                 res.innerHTML += `${index} 👉 `
             }
         }  else {
