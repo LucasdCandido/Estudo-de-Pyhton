@@ -19,7 +19,7 @@ main{
   padding: 0 2.5vw;
 }
 .back {
-  background-image: url(/landingpage/img/back.jpg);
+  background-image: url(/Estudo-de-Pyhton/landingpage/img/back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -32,26 +32,64 @@ main{
   color: rgb(255, 230, 0);
   text-shadow: 1px 1px 1px black;
 }
+.segundotitulo {
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+  margin: 1.2rem auto;
+}
+.informacao {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+p {
+  text-align: center;
+}
+.logo {
+  width: 17px;
+  height: 17px;
+}
 .conteudo {
   width: 45vw;
   text-align: justify;
   margin: 1.2rem auto;
   text-shadow: 1px 1px 1px rgb(255, 230, 0);
 }
+.conteudorestante {
+  width: 45vw;
+  margin: 1.2rem auto;
+}
 .servico {
+  width: 80vw;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1.2rem auto;
 }
-section>.quarto {
+ul>li {
+  padding-left: 5vw;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.carrossel {
+  width: auto;
   margin: 0 auto;
-  text-align: center;
 }
 .img-carrosel {
   object-fit: cover;
-  height: 250px;
+  height: 400px;
+}
+.final {
+  width: 90vw;
+  padding: 2.5vw;
+  text-align: center;
+  margin: 0 auto;
 }
 .mapa {
-  margin: 0 auto;
+  width: 80vw;
+  height: 15vw;
 }
 .botao {
  width: 125px;
