@@ -1,0 +1,59 @@
+.logoprincipal {
+  width: 145px;
+}
+.espacamentonavbar{
+  padding: 0 5vh;
+  margin: 0 5vh;
+}
+li>.textonav {
+  font-weight: bold;
+  color: black;
+}
+li>.textonav:hover {
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.2rem;
+}
+main{
+  padding: 0 2.5vw;
+}
+.back {
+  background-image: url(/landingpage/img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 45vw;
+}
+.titulo {
+  font-size: larger;
+  text-align: center;
+  padding-top: 2vw;
+  color: rgb(255, 230, 0);
+  text-shadow: 1px 1px 1px black;
+}
+.conteudo {
+  width: 45vw;
+  text-align: justify;
+  margin: 1.2rem auto;
+  text-shadow: 1px 1px 1px rgb(255, 230, 0);
+}
+.servico {
+  display: flex;
+  flex-wrap: wrap;
+}
+section>.quarto {
+  margin: 0 auto;
+  text-align: center;
+}
+.img-carrosel {
+  object-fit: cover;
+  height: 250px;
+}
+.mapa {
+  margin: 0 auto;
+}
+.botao {
+ width: 125px;
+ text-align: end;
+}
