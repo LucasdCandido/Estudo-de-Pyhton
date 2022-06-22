@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(rgb(127, 180, 48), green);
+}
+
 .logoprincipal {
   width: 145px;
 }
@@ -17,6 +21,9 @@ li>.textonav:hover {
 }
 main{
   padding: 0 2.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .back {
   background-image: url(/Estudo-de-Pyhton/landingpage/img/back.jpg);
@@ -24,6 +31,7 @@ main{
   background-size: cover;
   align-items: center;
   height: 45vw;
+  margin-top: 1.5vw;
 }
 .titulo {
   font-size: larger;
@@ -44,6 +52,16 @@ main{
 }
 p {
   text-align: center;
+  font-weight: bold;
+  text-shadow: 0.2px 0.2px silver;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover{
+  text-decoration: underline;
+  color: black;
 }
 .logo {
   width: 17px;
@@ -65,6 +83,12 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 1.2rem auto;
+  text-shadow: 0.2px 0.2px silver;
+}
+.imagempromocao {
+  width: 15vw;
+  height: 15vw;
+  margin: 1.5vw;
 }
 ul>li {
   padding-left: 5vw;
@@ -73,13 +97,14 @@ section {
   display: flex;
   justify-content: center;
 }
-.carrossel {
+/* .carrossel {
   width: auto;
   margin: 0 auto;
-}
+} */
 .img-carrosel {
   object-fit: cover;
   height: 400px;
+  margin: 1.2rem auto;
 }
 .final {
   width: 90vw;
