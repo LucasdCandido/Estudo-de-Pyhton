@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgb(127, 180, 48), green);
+  background-image: linear-gradient(to bottom, #E7E7E7, #FFFFFF);
 }
 
 .logoprincipal {
@@ -50,10 +50,14 @@ main{
   font-weight: bold;
   margin-bottom: 1rem;
 }
-p {
+p , .alinhamento {
   text-align: center;
   font-weight: bold;
   text-shadow: 0.2px 0.2px silver;
+}
+.conteudocard {
+  text-align: center;
+  font: 1.2rem medium black;
 }
 .link {
   text-decoration: none;
@@ -85,6 +89,9 @@ p {
   margin: 1.2rem auto;
   text-shadow: 0.2px 0.2px silver;
 }
+.destaque:hover {
+  transform: scale(1.2)!important;
+}
 .imagempromocao {
   width: 15vw;
   height: 15vw;
@@ -105,6 +112,14 @@ section {
   object-fit: cover;
   height: 400px;
   margin: 1.2rem auto;
+}
+.reserva{
+  width: 95vw;
+  height: auto;
+  background-color: white;
+  margin: 1.2rem auto;
+  padding: 1.2rem;
+  border-radius: 5px;
 }
 .final {
   width: 90vw;
