@@ -24,7 +24,7 @@ main{
   justify-content: center;
 }
 .back {
-  background-image: url(/Estudo-de-Pyhton/landingpage/img/back.webp);
+  background-image: url(../img/back.webp);
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -137,10 +137,15 @@ section {
   width: 80vw;
   height: 15vw;
 }
+.redes {
+  margin: 5vw;
+  margin-bottom: 11vw;
+}
 .botao {
  width: 125px;
  text-align: end;
- left: 90vw !important;
+ margin: 1vw;
+ margin-left: auto;
 }
 
 
@@ -152,13 +157,16 @@ section {
     padding-top: 6vw;
     font-size: 2rem;
   }
+  .redes {
+    margin: auto;
+  }
 }
 @media screen and (max-width: 690px) {
   .titulo{
     padding-top: 2.5vw;
     font-size: 1.5rem;
   }
-  .botão {
-    left: 0 !important;
+  .redes {
+   margin: auto;
   }
 }
