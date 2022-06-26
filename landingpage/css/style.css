@@ -41,6 +41,9 @@ main{
   color: rgb(255, 230, 0);
   text-shadow: 1px 1px 1px black;
 }
+.card {
+  margin: 5px 2.5px;
+}
 .segundotitulo {
   font-size: medium;
   text-align: center;
@@ -137,5 +140,25 @@ section {
 .botao {
  width: 125px;
  text-align: end;
- left: 90vw!important;
+ left: 90vw !important;
+}
+
+
+@media screen and (max-width: 930px) {
+  .txt-abertura {
+    visibility:hidden;
+  }
+  .titulo {
+    padding-top: 6vw;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 690px) {
+  .titulo{
+    padding-top: 2.5vw;
+    font-size: 1.5rem;
+  }
+  .botão {
+    left: 0 !important;
+  }
 }
