@@ -51,7 +51,7 @@ main{
   font-weight: bold;
   margin-bottom: 1rem;
 }
-p , .alinhamento {
+p, .alinhamento {
   text-align: center;
   font-weight: bold;
   text-shadow: 0.2px 0.2px silver;
@@ -90,9 +90,9 @@ p , .alinhamento {
   margin: 1.2rem auto;
   text-shadow: 0.2px 0.2px silver;
 }
-.destaque:hover {
+/* .destaque:hover {
   transform: scale(1.2)!important;
-}
+} */
 .imagempromocao {
   width: 15vw;
   height: 15vw;
