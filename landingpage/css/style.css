@@ -94,7 +94,7 @@ p,
 }
 
 .conteudo {
-  width: 45vw;
+  width: 75vw;
   text-align: justify;
   margin: 1.2rem auto;
   text-shadow: 1px 1px 1px rgb(255, 230, 0);
@@ -113,9 +113,6 @@ p,
   margin: 1.2rem auto;
   text-shadow: 0.2px 0.2px silver;
 }
-/* .destaque:hover {
-  transform: scale(1.2)!important;
-} */
 .imagempromocao {
   width: 15vw;
   height: 15vw;
@@ -128,10 +125,6 @@ section {
   display: flex;
   justify-content: center;
 }
-/* .carrossel {
-  width: auto;
-  margin: 0 auto;
-} */
 .img-carrosel {
   object-fit: cover;
   object-position: center;
@@ -154,12 +147,15 @@ section {
 }
 
 .hotel {
-  width: 95vw;
+  width: 80vw;
   height: auto;
   background-color: white;
   margin: 1.2rem auto;
   padding: 1.2rem;
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 /* lucas */
 
@@ -173,7 +169,6 @@ section {
 }
 
 .final {
-  /* width: 90vw; */
   padding: 2.5vw;
   text-align: center;
   margin: 0 auto;
