@@ -1,0 +1,17 @@
+.logo {
+  width: 457px;
+  height: 137px;
+  background: #EEEDED;
+  opacity: 85%;
+}
+.back {
+  width: auto;
+  background-image: url(../img/back.webp);
+  background-size: cover;
+  object-fit: fill;
+}
+.tituloprincipal {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
