@@ -5,10 +5,12 @@
   opacity: 85%;
 }
 .back {
-  width: auto;
+  width: 1220px;
+  height: 813.33px;
   background-image: url(../img/back.webp);
-  background-size: cover;
-  object-fit: fill;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .tituloprincipal {
   position: absolute;
