@@ -1,19 +1,32 @@
+root {
+  --font-poppins: font-family: 'Poppins', sans-serif;
+  --font-sacramento: font-family: 'Sacramento', cursive;
+}
+
+.topo {
+  width: 34vw;
+  height: 10.5vw;
+  position: fixed;
+  align-items: center;
+}
 .logo {
-  width: 457px;
-  height: 137px;
   background: #EEEDED;
   opacity: 85%;
+  float: none;
+  object-fit: contain;
+  margin: 0 auto;
 }
 .back {
-  width: 1220px;
-  height: 813.33px;
   background-image: url(../img/back.webp);
-  background-size: contain;
+  background-size: 85vw 90vw;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top, center;
+  position: relative;
+  top: 0;
 }
 .tituloprincipal {
   position: absolute;
   top: 30%;
   left: 30%;
+  font-style: var(--font-poppins);
 }
