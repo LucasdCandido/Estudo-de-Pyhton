@@ -1,20 +1,14 @@
-root {
-  --font-poppins: font-family: 'Poppins', sans-serif;
-  --font-sacramento: font-family: 'Sacramento', cursive;
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-sacramento: 'Sacramento', cursive;
 }
 
-.topo {
-  width: 34vw;
-  height: 10.5vw;
-  position: fixed;
-  align-items: center;
-}
 .logo {
   background: #EEEDED;
   opacity: 85%;
-  float: none;
   object-fit: contain;
   margin: 0 auto;
+  height: 10.5vw;
 }
 .back {
   background-image: url(../img/back.webp);
@@ -25,8 +19,12 @@ root {
   top: 0;
 }
 .tituloprincipal {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  font-style: var(--font-poppins);
+  font-family: var(--font-sacramento);
+  color: #FFE600;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 42vw;
+  padding: 0 7.5vw;
+}
+.razao {
+  margin-top: 50vw;
 }
