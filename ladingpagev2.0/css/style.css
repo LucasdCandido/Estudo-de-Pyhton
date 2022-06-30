@@ -2,7 +2,9 @@
   --font-poppins: 'Poppins', sans-serif;
   --font-sacramento: 'Sacramento', cursive;
 }
-
+body {
+  font-family: var(--font-poppins);
+}
 .logo {
   background: #EEEDED;
   opacity: 85%;
@@ -26,5 +28,46 @@
   padding: 0 7.5vw;
 }
 .razao {
-  margin-top: 50vw;
+  margin-top: 48vw;
+}
+.espacorazao {
+  margin: 6vw 0;
+}
+.img-card-atracao {
+  width: 48vw;
+  height: 40vw;
+}
+.width-card-atracao {
+  width: 48vw;
+}
+.logozap {
+  width: 23.5px;
+}
+.quarto {
+  position: relative;
+}
+.card-quarto {
+  width: 29vw;
+  height: auto;
+  padding: 2.5vw;
+  background-color: #EDEDED;
+  opacity: 75%;
+  position: relative;
+  top: 16vw;
+  left: 22vw;
+  z-index: 1;
+}
+.img-quarto {
+  width: 60vw;
+  position: relative;
+  top: -17vw;
+  right: 1vw;
+  z-index: 0;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
 }
