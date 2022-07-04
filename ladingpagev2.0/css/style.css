@@ -132,7 +132,7 @@ body {
     left: 5vw;
   }
   .sobre{
-    height: 129vw;
+    height: 129vw!important;
   }
   .quarto {
     display: flexbox;
@@ -146,6 +146,25 @@ body {
     position: unset;
     width: 80vw;
     margin: 0 auto;
+  }
+  .div-quarto {
+    float: none!important;
+    margin-left: 9.5vw;
+  }
+  .razao > article {
+    text-align: center!important;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .sobre{
+    height: 95vw;
+  }
+  .quarto {
+    height: 99vw;
+  }
+  .card-quarto > p {
+    font-size: 1rem!important;
   }
 }
 
