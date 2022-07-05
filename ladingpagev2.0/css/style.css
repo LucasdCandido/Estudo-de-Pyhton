@@ -72,9 +72,6 @@ body {
   font-size: calc(1vw + 0.8rem);
   padding: 0 2.5vw;
 }
-.quarto-itens {
-
-}
 .card-quarto {
   width: 52vw;
   height: auto;
@@ -99,6 +96,14 @@ body {
 }
 .link:hover {
   text-decoration: underline;
+}
+.img-cachoeira {
+  width: 18vw;
+  height: 30vw;
+}
+.img-cristo, .img-paragua {
+  width: 30vw;
+  height: 13.5vw;
 }
 
 @media screen and (max-width: 576px){
@@ -176,5 +181,8 @@ body {
   .text-paragrafo {
     font-size: calc(1vw + 0.6rem);
     padding: 0 2.5vw;
+  }
+  .quarto {
+    height: 70vw;
   }
 }
