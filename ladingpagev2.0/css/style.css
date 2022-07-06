@@ -162,6 +162,21 @@ body {
   .razao > article {
     text-align: center!important;
   }
+  .quarto {
+    height: 130vw!important;
+  }
+  .img-cristo, .img-paragua {
+    width: auto;
+    height: 35vw;
+    object-fit: cover;
+    object-position: top;
+  }
+  .img-cachoeira {
+    display: none;
+  }
+  .img-paragua {
+    margin-bottom: 5vw;
+  }
 }
 
 @media screen and (max-width: 790px) {
