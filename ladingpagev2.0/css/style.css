@@ -36,6 +36,8 @@ body {
 .img-card-atracao {
   width: 48vw;
   height: 40vw;
+  object-fit: cover;
+  object-position: center;
 }
 .width-card-atracao {
   width: 48vw;
@@ -100,13 +102,42 @@ body {
 .link:hover {
   text-decoration: underline;
 }
+.corumba {
+  background-color: #D9D9D9;
+}
 .img-cachoeira {
-  width: 18vw;
+  width: 22vw;
   height: 30vw;
 }
 .img-cristo, .img-paragua {
-  width: 30vw;
+  width: 32vw;
   height: 13.5vw;
+  object-fit: cover;
+  object-position: top;
+}
+.titulocorumba {
+  color: #969292;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #5F5713;
+  text-align: center;
+}
+.conteudocorumba {
+  color: #FFE600;
+  font-family: var(--font-sacramento);
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+.conteudocuriosidade{
+  max-width: 40vw;
+}
+.corumbacuriosidade{
+  color: #969292;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #5F5713;
+}
+.mapa {
+  width: 45vw;
+  height: 35vw;
 }
 
 @media screen and (max-width: 576px){
@@ -171,9 +202,6 @@ body {
     object-fit: cover;
     object-position: top;
   }
-  .img-cachoeira {
-    display: none;
-  }
   .img-paragua {
     margin-bottom: 5vw;
   }
@@ -188,6 +216,17 @@ body {
   }
   .card-quarto > p {
     font-size: 1rem!important;
+  }
+  .corumba {
+    text-align: center;
+  }
+  .img-cachoeira {
+    display: none;
+  }
+  .img-cristo, .img-paragua, .conteudocuriosidade {
+    width: 82vw;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
