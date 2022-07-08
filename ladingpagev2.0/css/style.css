@@ -135,9 +135,39 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 1px #5F5713;
 }
+.conteudolocalizacao {
+  margin: 3vw auto;
+}
+.localizacao {
+  color: #969292;
+  text-shadow: 1px 1px 1px #5F5713;
+  font-weight: bold;
+  margin: 3vw;
+}
 .mapa {
   width: 45vw;
   height: 35vw;
+}
+.footer-bg {
+  background-color: #EDEDED;
+}
+.logofooter {
+  background-color: #E3E0DD;
+  width: 12vw;
+  margin-top: 5vw;
+}
+.contato {
+  color: #969292;
+  text-shadow: 1px 1px 1px #5F5713;
+}
+.link-contato {
+  color: #969292;
+  text-shadow: 1px 1px 1px #5F5713;
+  text-decoration: none;
+}
+.link-contato:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 576px){
@@ -204,6 +234,16 @@ body {
   }
   .img-paragua {
     margin-bottom: 5vw;
+  }
+  .conteudocuriosidade {
+    margin: 2.5vw 22%!important;
+  }
+  .logofooter {
+    margin: 5vw 41.5%;
+    width: 30vw;
+  }
+  .contato{
+    text-align: center;
   }
 }
 
