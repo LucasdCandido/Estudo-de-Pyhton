@@ -6,7 +6,7 @@ body {
   font-family: var(--font-poppins);
 }
 .logo {
-  background: #EEEDED;
+  background: #eeeded;
   opacity: 85%;
   object-fit: contain;
   margin: 0 auto;
@@ -22,7 +22,7 @@ body {
 }
 .tituloprincipal {
   font-family: var(--font-sacramento);
-  color: #FFE600;
+  color: #ffe600;
   text-shadow: 1px 1px 1px black;
   margin-top: 42vw;
   padding: 0 7.5vw;
@@ -45,7 +45,7 @@ body {
 .logozap {
   width: 23.5px;
 }
-.sobre{
+.sobre {
   margin-top: 10px;
   width: 100vw;
   height: 70vw;
@@ -58,8 +58,8 @@ body {
   z-index: 1;
   left: 45vw;
 }
-.text-pantanal{
-  background-color: #EDEDED;
+.text-pantanal {
+  background-color: #ededed;
   opacity: 75%;
   z-index: 2;
   max-width: 46vw;
@@ -81,7 +81,7 @@ body {
   width: 52vw;
   height: auto;
   padding: 2.5vw;
-  background-color: #EDEDED;
+  background-color: #ededed;
   opacity: 75%;
   position: relative;
   top: 16vw;
@@ -103,13 +103,20 @@ body {
   text-decoration: underline;
 }
 .corumba {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
+
+.corumba-article {
+  display: flex;
+  flex-direction: row;
+}
+
 .img-cachoeira {
   width: 22vw;
   height: 30vw;
 }
-.img-cristo, .img-paragua {
+.img-cristo,
+.img-paragua {
   width: 32vw;
   height: 13.5vw;
   object-fit: cover;
@@ -118,29 +125,29 @@ body {
 .titulocorumba {
   color: #969292;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #5F5713;
+  text-shadow: 1px 1px 1px #5f5713;
   text-align: center;
 }
 .conteudocorumba {
-  color: #FFE600;
+  color: #ffe600;
   font-family: var(--font-sacramento);
   text-shadow: 1px 1px 1px black;
   text-align: center;
 }
-.conteudocuriosidade{
+.conteudocuriosidade {
   max-width: 40vw;
 }
-.corumbacuriosidade{
+.corumbacuriosidade {
   color: #969292;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #5F5713;
+  text-shadow: 1px 1px 1px #5f5713;
 }
 .conteudolocalizacao {
   margin: 3vw auto;
 }
 .localizacao {
   color: #969292;
-  text-shadow: 1px 1px 1px #5F5713;
+  text-shadow: 1px 1px 1px #5f5713;
   font-weight: bold;
   margin: 3vw;
 }
@@ -149,20 +156,20 @@ body {
   height: 35vw;
 }
 .footer-bg {
-  background-color: #EDEDED;
+  background-color: #ededed;
 }
 .logofooter {
-  background-color: #E3E0DD;
+  background-color: #e3e0dd;
   width: 12vw;
   margin-top: 5vw;
 }
 .contato {
   color: #969292;
-  text-shadow: 1px 1px 1px #5F5713;
+  text-shadow: 1px 1px 1px #5f5713;
 }
 .link-contato {
   color: #969292;
-  text-shadow: 1px 1px 1px #5F5713;
+  text-shadow: 1px 1px 1px #5f5713;
   text-decoration: none;
 }
 .link-contato:hover {
@@ -170,8 +177,9 @@ body {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 576px){
-  .img-card-atracao, .width-card-atracao{
+@media screen and (max-width: 576px) {
+  .img-card-atracao,
+  .width-card-atracao {
     width: auto;
     padding: 2.5vw 2.5vw;
   }
@@ -184,7 +192,7 @@ body {
     padding: 0 2.5vw;
   }
   .text-pantanal {
-    background-color: #EDEDED;
+    background-color: #ededed;
     opacity: 75%;
     z-index: 2;
     max-width: 80vw;
@@ -200,8 +208,8 @@ body {
     z-index: 1;
     left: 5vw;
   }
-  .sobre{
-    height: 129vw!important;
+  .sobre {
+    height: 129vw !important;
   }
   .quarto {
     display: flexbox;
@@ -217,16 +225,17 @@ body {
     margin: 0 auto;
   }
   .div-quarto {
-    float: none!important;
+    float: none !important;
     margin-left: 9.5vw;
   }
   .razao > article {
-    text-align: center!important;
+    text-align: center !important;
   }
   .quarto {
-    height: 130vw!important;
+    height: 130vw !important;
   }
-  .img-cristo, .img-paragua {
+  .img-cristo,
+  .img-paragua {
     width: auto;
     height: 35vw;
     object-fit: cover;
@@ -236,26 +245,26 @@ body {
     margin-bottom: 5vw;
   }
   .conteudocuriosidade {
-    margin: 2.5vw 22%!important;
+    margin: 2.5vw 22% !important;
   }
   .logofooter {
     margin: 5vw 41.5%;
     width: 30vw;
   }
-  .contato{
+  .contato {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 790px) {
-  .sobre{
+  .sobre {
     height: 95vw;
   }
   .quarto {
     height: 99vw;
   }
   .card-quarto > p {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
   .corumba {
     text-align: center;
@@ -263,10 +272,30 @@ body {
   .img-cachoeira {
     display: none;
   }
-  .img-cristo, .img-paragua, .conteudocuriosidade {
+
+  .img-cristo,
+  .img-paragua,
+  .conteudocuriosidade {
     width: 82vw;
     margin: 0 auto;
     text-align: center;
+  }
+}
+
+.article-images {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+@media screen and (max-width: 821px) {
+  .corumba-article {
+    padding: 5px;
+    flex-direction: column;
+  }
+
+  .article-images {
+    flex-direction: row;
   }
 }
 
