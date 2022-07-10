@@ -166,6 +166,7 @@ body {
 .contato {
   color: #969292;
   text-shadow: 1px 1px 1px #5f5713;
+  text-align: center;
 }
 .link-contato {
   color: #969292;
@@ -256,7 +257,7 @@ body {
   }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 821px) {
   .sobre {
     height: 95vw;
   }
@@ -278,6 +279,20 @@ body {
   .conteudocuriosidade {
     width: 82vw;
     margin: 0 auto;
+    text-align: center;
+  }
+  .conteudocuriosidade {
+    margin: 2.5vw 22% !important;
+  }
+  .footer-bg {
+    display: flex;
+    flex-direction: column;
+  }
+  .logofooter {
+    margin: 5vw 41.5%;
+    width: 25vw;
+  }
+  .contato {
     text-align: center;
   }
 }
