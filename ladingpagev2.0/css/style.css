@@ -24,11 +24,11 @@ body {
   font-family: var(--font-sacramento);
   color: #ffe600;
   text-shadow: 1px 1px 1px black;
-  margin-top: 42vw;
+  margin-top: 21vw;
   padding: 0 7.5vw;
 }
 .razao {
-  margin-top: 48vw;
+  margin-top: 68vw;
 }
 .espacorazao {
   margin: 6vw 0;
@@ -235,6 +235,9 @@ body {
   .quarto {
     height: 130vw !important;
   }
+  .conteudocorumba {
+    display: none;
+  }
   .img-cristo,
   .img-paragua {
     width: auto;
@@ -246,14 +249,21 @@ body {
     margin-bottom: 5vw;
   }
   .conteudocuriosidade {
-    margin: 2.5vw 22% !important;
+    width: auto;
+    padding-left: 0;
+  }
+  .corumbacuriosidade {
+    margin: 2.5vw 1.5rem !important;
   }
   .logofooter {
-    margin: 5vw 41.5%;
+    /* margin: 5vw 41.5%; */
     width: 30vw;
   }
   .contato {
     text-align: center;
+  }
+  article>ul {
+    padding: 0;
   }
 }
 
@@ -269,6 +279,7 @@ body {
   }
   .corumba {
     text-align: center;
+    padding:3rem 0!important;
   }
   .img-cachoeira {
     display: none;
@@ -281,16 +292,23 @@ body {
     margin: 0 auto;
     text-align: center;
   }
-  .conteudocuriosidade {
-    margin: 2.5vw 22% !important;
+  .corumbacuriosidade {
+    width: 80vw !important;
+    margin: 2.5vw 7.5vw !important;
   }
   .footer-bg {
     display: flex;
     flex-direction: column;
   }
+  .logoalinhamento {
+    margin: 0 auto;
+  }
   .logofooter {
-    margin: 5vw 41.5%;
+    /* margin: 5vw 41.5%; */
     width: 25vw;
+  }
+  .lista {
+    padding-left: 0!important;
   }
   .contato {
     text-align: center;
