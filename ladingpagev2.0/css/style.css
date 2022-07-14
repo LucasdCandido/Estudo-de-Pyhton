@@ -179,6 +179,10 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  .espacorazao {
+    font-weight: bold;
+    font-size: calc(1vw + .9rem); 
+  }
   .img-card-atracao,
   .width-card-atracao {
     width: auto;
